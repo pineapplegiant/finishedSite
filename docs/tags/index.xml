@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Wassup fam</title>
+    <link>https://pineapplegiant.github.io/finishedSite/tags/</link>
+    <description>Recent content in Tags on Wassup fam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Mar 2019 17:04:18 -0400</lastBuildDate>
+    
+	<atom:link href="https://pineapplegiant.github.io/finishedSite/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mlk Speech</title>
+      <link>https://pineapplegiant.github.io/finishedSite/tags/mlk-speech/</link>
+      <pubDate>Sat, 23 Mar 2019 17:04:18 -0400</pubDate>
+      
+      <guid>https://pineapplegiant.github.io/finishedSite/tags/mlk-speech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

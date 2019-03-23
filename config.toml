@@ -1,4 +1,4 @@
-baseURL = "https://example.com" # Your website URL. You need to update it. Very important!!
+baseURL = "https://pineapplegiant.github.io/finishedSite/" # Your website URL. You need to update it. Very important!!
 title   = "Wassup fam"          # The title in the center of your site
 DefaultContentLanguage = "en"   # Language for your site (default is 'en')
 theme = "hello-friend-ng"       # The theme of your site

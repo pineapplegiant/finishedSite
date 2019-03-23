@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wassup fam</title>
+    <link>https://pineapplegiant.github.io/finishedSite/</link>
+    <description>Recent content on Wassup fam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Mar 2019 17:04:18 -0400</lastBuildDate>
+    
+	<atom:link href="https://pineapplegiant.github.io/finishedSite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://pineapplegiant.github.io/finishedSite/posts/2019/03/my-first-post/</link>
+      <pubDate>Sat, 23 Mar 2019 17:04:18 -0400</pubDate>
+      
+      <guid>https://pineapplegiant.github.io/finishedSite/posts/2019/03/my-first-post/</guid>
+      <description>MLK SPEEECH Hey check out this speech I just found out that&amp;rsquo;s super inspirational I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation. Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon of hope to millions of Negro slaves, who had been seared in the flames of withering injustice.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://pineapplegiant.github.io/finishedSite/about/</link>
+      <pubDate>Sat, 23 Mar 2019 16:44:14 -0400</pubDate>
+      
+      <guid>https://pineapplegiant.github.io/finishedSite/about/</guid>
+      <description>Hey fam 🍍,
+I&amp;rsquo;m a student in CS and I love drinking a cold one on the weekend with the homies.
+I like to program in C++, Python.
+Seriously though, look at my C++ code below.
+#include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;#34;Hello fam&amp;#34; &amp;lt;&amp;lt; std::endl; return 0; }  Thanks again, for coming to my site!</description>
+    </item>
+    
+  </channel>
+</rss>
