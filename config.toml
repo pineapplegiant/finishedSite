@@ -1,0 +1,114 @@
+baseURL = "https://example.com" # Your website URL. You need to update it. Very important!!
+title   = "Wassup fam"          # The title in the center of your site
+DefaultContentLanguage = "en"   # Language for your site (default is 'en')
+theme = "hello-friend-ng"       # The theme of your site
+PygmentsCodeFences = true       # Code formatting style
+PygmentsStyle = "monokai"       # The style for your content's 
+rssLimit  = 10                  # Maximum number of items in the RSS feed.
+copyright = ""                  # Footer copyright
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+# Hugo Default specific variables
+archetypeDir = "archetypes"     # Where Hugo pulls its blog YAML front matter defaults from. You trigger it by running `$hugo new posts/POSTNAME.md`
+contentDir   = "content"        # Where hugo pulls its content to make its pages from.
+dataDir      = "data"           # Where hugo pulls its data from. Usually you'll put JSON stuff in here.
+layoutDir    = "layouts"        # Where hugo pulls its layouts, but we're using theme so that's where it really gets it layouts from.
+publishDir   = "docs"           # Where hugo will publish its HTML. You trigger it by running the `$hugo` command. Changed to 'docs' per GH pages.
+
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true          # That SEO though
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+# Stuff for blog presentation
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "TODO"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = ""
+
+# Hugo Parameters AKA variables
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head -> Good for SEO
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
+  homeSubtitle = "Thanks for coming to my site ✌️ "
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+  themeColor = "#252627"
+
+
+
+### Front Page Logo stuff
+  [params.logo]
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/TODO"
+
+  [[params.social]]
+    name = "email"
+    url  = "TODO"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/TODO"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/TODO"
+
+
+### Front page links
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
